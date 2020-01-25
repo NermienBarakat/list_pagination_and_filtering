@@ -13,7 +13,8 @@ Without JavaScript, this page displays a long list of client. I have enhanced th
 
 ## Features
 - [x] Random background color change with page selection.
-- [x] Added a search feature to filter/find client
+- []  Pagination -- Show only 10 clients/page
+- [] Added a search feature to filter/find client
 - [x] Updated pagination results based on search
 - [x] Created fallback message for when no search results are available
 
