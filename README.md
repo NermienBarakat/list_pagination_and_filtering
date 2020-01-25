@@ -5,7 +5,7 @@ This project utilizes a progressive enhancement approach to add pagination, sear
 
 ## View project
 
-You can preview [List Pagination and Filtering](https://nermienbarakat.github.io/list_pagination_and_filtering_JS/).
+You can preview [List Pagination and Filtering](https://nermienbarakat.github.io/list_pagination_and_filtering).
 
 
 ## Project objective
