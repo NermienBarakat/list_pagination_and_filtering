@@ -4,7 +4,7 @@
 This project utilizes a progressive enhancement approach to add pagination, search filtering features and random background color change to a client list page using only Vanilla JavaScript. 
 
 ## View project
-:mag:
+
 You can preview [List Pagination and Filtering](https://nermienbarakat.github.io/list_pagination_and_filtering_JS/).
 
 
