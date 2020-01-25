@@ -7,8 +7,6 @@ This project utilizes a progressive enhancement approach to add pagination, sear
 :mag:
 You can preview [List Pagination and Filtering](https://nermienbarakat.github.io/list_pagination_and_filtering_JS/).
 
-<br><br>
-
 
 ## Project objective
 Without JavaScript, this page displays a long list of client. I have enhanced the usability of the page by using unobtrusive JavaScript to dynamically divide the list into "pages". Each 'page' now only displays 10 clients at a time.
