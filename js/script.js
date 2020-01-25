@@ -26,9 +26,10 @@ const showPage = (list, currentPage) => {
 }
 //Change background color function 
 
-const bgColorChanges = () => {
+const bgColorChanges = (activeBtn) => {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16);
     document.body.style.backgroundColor = "#" + randomColor;
+    activeBtn.style.backgroundColor = "#" + randomColor;
   }
 
 //generate, append, and add functionality to the pagination buttons.
@@ -52,13 +53,14 @@ const init = (list) => {
         paginationBtn.appendChild(text);
         pagination.appendChild(paginationBtn);
         paginationBtn.addEventListener('click', function (e) {
-            let activeBtn = document.querySelector('.js-active-btn');
-            activeBtn.disabled = false;
-            activeBtn.className = 'js-pagination-btn';
+            let prevActiceBtn = document.querySelector('.js-active-btn');
+            prevActiceBtn.disabled = false;
+            prevActiceBtn.className = 'js-pagination-btn';
+            prevActiceBtn.style.backgroundColor = '#eaeaea';
             showPage(list, (i + 1));
             this.classList.add('js-active-btn');
             this.disabled = true;
-            bgColorChanges();
+            bgColorChanges(this);
         })
     }
     showPage(list, 1);
