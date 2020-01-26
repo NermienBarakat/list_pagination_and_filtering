@@ -16,7 +16,6 @@ const searchQuery = (e) => {
         let listItemText = item.getElementsByTagName('h3')[0].innerText.toLowerCase();
         if (listItemText.indexOf(searchText) > -1) {
             item.style.display = '';
-            console.log(item);
             searchNumber++;
             filteredList.push(item);
            
